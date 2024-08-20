@@ -1,0 +1,87 @@
+##¿Qué palabra clave se utiliza para declarar una clase en java?
+{	
+=class
+~interface
+~extends
+~implements
+}
+##¿Cuál es el tamaño de un entero (“int”) en java?
+{
+~8 bits
+~16 bits
+=32 bits
+~64 bits
+}
+##¿Qué palabra se utiliza para heredar en java?
+{
+~Implements
+=Extends
+~Inherints
+~Super
+} 
+##Observa el siguiente código y responde:
+public class Example {
+    public static void main(String[] args) {
+        int [] numbers = {1, 2, 3, 4, 5};
+        int result = 0;
+
+       for (int i = 0; i < numbers. length; i++) {
+            if (numbers[i] % 2 == 0) {
+                result += numbers[i];
+            }
+        }
+
+        System.out.println("The result is: " + result);
+    }
+}
+
+
+##¿Cuál es el valor que se imprimirá en consola cuando se ejecute el código?
+{
+~5
+=6
+~9
+~12
+}
+##¿Cuál de los siguientes modificadores de acceso hace que un miembro de clase sea accesible solo dentro del mismo paquete?
+{
+~public 
+~private 
+~protected 
+=default
+} 
+##¿Cuál es el propósito de la palabra clave “this” en Java?
+{
+=Referir a la clase actual 
+~Crear un nuevo objeto 
+~Invocar un método estático 
+~Asignar un valor a una variable 
+}
+##¿En java, un objeto puede ser instanciado sin necesidad de un constructor?{F}
+##¿Qué estructura de control se utiliza para iterar un numero especifico de veces en Java?
+{
+~If
+~while
+=for
+~switch 
+}
+##En Java “Jframe” es la clase base utilizada para crear una ventana en aplicaciones de interfaz gráfica{T}  
+
+##Considera el siguiente fragmento de código en Java:
+
+public class Main {
+    public static void main(String[] args) {
+        String text = "Java";
+        String result = text. substring(1, 3);
+        System.out.println(result);
+    }
+}
+
+
+ ##¿Qué valor se imprimirá en la consola al ejecutar este código?
+{
+~Ja
+=av
+~Java
+~a
+}
